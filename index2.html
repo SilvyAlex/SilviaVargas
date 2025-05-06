@@ -2,6 +2,34 @@
 <html lang="en">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K020169G6E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K020169G6E');
+  </script>
+
+  <!-- EhAPI script -->
+  <script type="text/javascript">
+    var EhAPI = EhAPI || {};
+    EhAPI.after_load = function () {
+      EhAPI.set_account('p5qpd4f93o4a2qsshpn38cn7nc', 'gmailytgx');
+      EhAPI.execute('reglas');
+    };
+    (function (d, s, f) {
+      var sc = document.createElement(s);
+      sc.type = 'text/javascript';
+      sc.async = true;
+      sc.src = f;
+      var m = document.getElementsByTagName(s)[0];
+      m.parentNode.insertBefore(sc, m);
+    })(document, 'script', '//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v' + new Date().getHours());
+  </script>
+
+  
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>USFQ Buye2</title>
@@ -474,39 +502,9 @@
             </div>
           </div>
 
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Nombre completo</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Número Telefónico</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Mensaje</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Tu mensaje ha sido Enviado!</div>
-
-                  <button type="submit">Enviar</button>
-                </div>
-
-              </div>
+          <div class="col-lg-7 engage-hub-form-embed" id="eh_form_4694900036861952" data-id="4694900036861952">
+            <form>
+              
             </form>
           </div><!-- End Contact Form -->
 
